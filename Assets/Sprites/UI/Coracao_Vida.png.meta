@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: d531805067e228e40b9c8fe92af3831f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5117309296011848252
+    second: Coracao_Vida_0
+  - first:
+      213: -3133143075768577541
+    second: Coracao_Vida_1
+  - first:
+      213: 4328773735658143299
+    second: Coracao_Vida_2
+  - first:
+      213: 7396491773504936948
+    second: Coracao_Vida_3
+  - first:
+      213: -3481286987331756575
+    second: Coracao_Vida_4
+  - first:
+      213: -7607667942038065709
+    second: Coracao_Vida_5
+  - first:
+      213: 3919551790478967014
+    second: Coracao_Vida_6
+  - first:
+      213: 1450676104017691277
+    second: Coracao_Vida_7
+  - first:
+      213: -6028152174602498484
+    second: Coracao_Vida_8
+  - first:
+      213: -6226579647461868580
+    second: Coracao_Vida_9
+  - first:
+      213: 3916110868614162941
+    second: Coracao_Vida_10
+  - first:
+      213: -2392623072461539736
+    second: Coracao_Vida_11
+  - first:
+      213: 7158480559126144634
+    second: Coracao_Vida_12
+  - first:
+      213: -3281780238527095915
+    second: Coracao_Vida_13
+  - first:
+      213: -2865312100871127095
+    second: Coracao_Vida_14
+  - first:
+      213: -8963427052725197349
+    second: Coracao_Vida_15
+  - first:
+      213: 5482023875145023048
+    second: Coracao_Vida_16
+  - first:
+      213: 102976042578609926
+    second: Coracao_Vida_17
+  - first:
+      213: -5197644035335506078
+    second: Coracao_Vida_18
+  - first:
+      213: 4553335873455858865
+    second: Coracao_Vida_19
+  - first:
+      213: 718824520865288403
+    second: Coracao_Vida_20
+  - first:
+      213: 4348142552762649394
+    second: Coracao_Vida_21
+  - first:
+      213: -5387851960303285655
+    second: Coracao_Vida_22
+  - first:
+      213: 6021467559977129050
+    second: Coracao_Vida_23
+  - first:
+      213: -4843317754919777937
+    second: Coracao_Vida_24
+  - first:
+      213: 5639708890918093373
+    second: Coracao_Vida_25
+  - first:
+      213: -4388251929473355839
+    second: Coracao_Vida_26
+  - first:
+      213: -1709335206819977022
+    second: Coracao_Vida_27
+  - first:
+      213: 302463093625796389
+    second: Coracao_Vida_28
+  - first:
+      213: -6304879351496051865
+    second: Coracao_Vida_29
+  - first:
+      213: 151201162208332469
+    second: Coracao_Vida_30
+  - first:
+      213: -1962121978591487951
+    second: Coracao_Vida_31
+  - first:
+      213: -6176899796028044752
+    second: Coracao_Vida_32
+  - first:
+      213: -3483700700101284776
+    second: Coracao_Vida_33
+  - first:
+      213: 1897256560875885660
+    second: Coracao_Vida_34
+  - first:
+      213: -5571545800969975636
+    second: Coracao_Vida_35
+  - first:
+      213: -1434114923576386189
+    second: Coracao_Vida_36
+  - first:
+      213: -8123075784450999356
+    second: Coracao_Vida_37
+  - first:
+      213: -6916485377520999053
+    second: Coracao_Vida_38
+  - first:
+      213: -3857571541021924841
+    second: Coracao_Vida_39
+  - first:
+      213: -8545328301156871812
+    second: Coracao_Vida_40
+  - first:
+      213: 3114213052863364975
+    second: Coracao_Vida_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Coracao_Vida_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a279a21b5540740800000000000000
+      internalID: 5117309296011848252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 720
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1d65209f6d484d0800000000000000
+      internalID: -3133143075768577541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 533
+        width: 191
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eb1fa17c4e21c30800000000000000
+      internalID: 4328773735658143299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 744
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb5cd7641e95a660800000000000000
+      internalID: 7396491773504936948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 744
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed96eefdebffafc0800000000000000
+      internalID: -3481286987331756575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 403
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dda1b950522c6690800000000000000
+      internalID: -7607667942038065709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 697
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0ce36369b056630800000000000000
+      internalID: 3919551790478967014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d824f180b36d12410800000000000000
+      internalID: 1450676104017691277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ec1d42983b75ca0800000000000000
+      internalID: -6028152174602498484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 579
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbbb5becceb699a0800000000000000
+      internalID: -6226579647461868580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92bc82612d85630800000000000000
+      internalID: 3916110868614162941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 533
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866b6840ef1bbced0800000000000000
+      internalID: -2392623072461539736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76e04a2428085360800000000000000
+      internalID: 7158480559126144634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 509
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b12bbb246c472d0800000000000000
+      internalID: -3281780238527095915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 509
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfb2f843dd5c38d0800000000000000
+      internalID: -2865312100871127095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 146
+        width: 170
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd52038f5928b9380800000000000000
+      internalID: -8963427052725197349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 403
+        width: 113
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eba306baf041c40800000000000000
+      internalID: 5482023875145023048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60706464a28dd6100800000000000000
+      internalID: 102976042578609926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26736e4c9424ed7b0800000000000000
+      internalID: -5197644035335506078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b421603ad2b03f30800000000000000
+      internalID: 4553335873455858865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0140ed717c9f900800000000000000
+      internalID: 718824520865288403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 329
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b8d224d94b75c30800000000000000
+      internalID: 4348142552762649394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 307
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a0bbb20318a35b0800000000000000
+      internalID: -5387851960303285655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_23
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5499fab7dc809350800000000000000
+      internalID: 6021467559977129050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f690aa3b92419ccb0800000000000000
+      internalID: -4843317754919777937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3209c71b55444e40800000000000000
+      internalID: 5639708890918093373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_26
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf61debe1cc913c0800000000000000
+      internalID: -4388251929473355839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_27
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c82d639fa83748e0800000000000000
+      internalID: -1709335206819977022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_28
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5273b35c490923400800000000000000
+      internalID: 302463093625796389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_29
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763f16e62a19088a0800000000000000
+      internalID: -6304879351496051865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_30
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 22
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bacd0be7ac291200800000000000000
+      internalID: 151201162208332469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_31
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 22
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138511cc47425c4e0800000000000000
+      internalID: -1962121978591487951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_32
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ac094bc5e374aa0800000000000000
+      internalID: -6176899796028044752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_33
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ceea2bba867afc0800000000000000
+      internalID: -3483700700101284776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_34
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5459ce3ac8645a10800000000000000
+      internalID: 1897256560875885660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_35
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca88d530d94eda2b0800000000000000
+      internalID: -5571545800969975636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_36
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d94254310091ce0800000000000000
+      internalID: -1434114923576386189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_37
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb7838ac99054f80800000000000000
+      internalID: -8123075784450999356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_38
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3756daab135b300a0800000000000000
+      internalID: -6916485377520999053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_39
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7126bb92f17277ac0800000000000000
+      internalID: -3857571541021924841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_40
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71d3786f25e86980800000000000000
+      internalID: -8545328301156871812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coracao_Vida_41
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f3ec29548e73b20800000000000000
+      internalID: 3114213052863364975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: caaaa08a25452c04191931f2ebe01500
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Coracao_Vida_0: 5117309296011848252
+      Coracao_Vida_1: -3133143075768577541
+      Coracao_Vida_10: 3916110868614162941
+      Coracao_Vida_11: -2392623072461539736
+      Coracao_Vida_12: 7158480559126144634
+      Coracao_Vida_13: -3281780238527095915
+      Coracao_Vida_14: -2865312100871127095
+      Coracao_Vida_15: -8963427052725197349
+      Coracao_Vida_16: 5482023875145023048
+      Coracao_Vida_17: 102976042578609926
+      Coracao_Vida_18: -5197644035335506078
+      Coracao_Vida_19: 4553335873455858865
+      Coracao_Vida_2: 4328773735658143299
+      Coracao_Vida_20: 718824520865288403
+      Coracao_Vida_21: 4348142552762649394
+      Coracao_Vida_22: -5387851960303285655
+      Coracao_Vida_23: 6021467559977129050
+      Coracao_Vida_24: -4843317754919777937
+      Coracao_Vida_25: 5639708890918093373
+      Coracao_Vida_26: -4388251929473355839
+      Coracao_Vida_27: -1709335206819977022
+      Coracao_Vida_28: 302463093625796389
+      Coracao_Vida_29: -6304879351496051865
+      Coracao_Vida_3: 7396491773504936948
+      Coracao_Vida_30: 151201162208332469
+      Coracao_Vida_31: -1962121978591487951
+      Coracao_Vida_32: -6176899796028044752
+      Coracao_Vida_33: -3483700700101284776
+      Coracao_Vida_34: 1897256560875885660
+      Coracao_Vida_35: -5571545800969975636
+      Coracao_Vida_36: -1434114923576386189
+      Coracao_Vida_37: -8123075784450999356
+      Coracao_Vida_38: -6916485377520999053
+      Coracao_Vida_39: -3857571541021924841
+      Coracao_Vida_4: -3481286987331756575
+      Coracao_Vida_40: -8545328301156871812
+      Coracao_Vida_41: 3114213052863364975
+      Coracao_Vida_5: -7607667942038065709
+      Coracao_Vida_6: 3919551790478967014
+      Coracao_Vida_7: 1450676104017691277
+      Coracao_Vida_8: -6028152174602498484
+      Coracao_Vida_9: -6226579647461868580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+# Unity - pastas geradas automaticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Configurações locais do usuário
+[Uu]ser[Ss]ettings/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Builds e pacotes grandes
+*.apk
+*.aab
+*.unitypackage
