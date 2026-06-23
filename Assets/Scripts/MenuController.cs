@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
     [Header("Paineis")]
     public GameObject painelMenuPrincipal;
     public GameObject painelConfiguracoes;
+    public GameObject painelCreditos;
 
     [Header("Sliders")]
     public Slider sliderVolumeGeral;
@@ -27,6 +28,11 @@ public class MenuController : MonoBehaviour
         if (painelConfiguracoes != null)
         {
             painelConfiguracoes.SetActive(false);
+        }
+
+        if (painelCreditos != null)
+        {
+            painelCreditos.SetActive(false);
         }
 
         ConfigurarSliders();
@@ -98,5 +104,40 @@ public class MenuController : MonoBehaviour
     {
         Debug.Log("Saindo do jogo...");
         Application.Quit();
+    }
+
+    public void AbrirCreditos()
+    {
+        if (painelMenuPrincipal != null)
+        {
+            painelMenuPrincipal.SetActive(false);
+        }
+
+        if (painelConfiguracoes != null)
+        {
+            painelConfiguracoes.SetActive(false);
+        }
+
+        if (painelCreditos != null)
+        {
+            painelCreditos.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("PainelCreditos não foi colocado no MenuController.");
+        }
+    }
+
+    public void FecharCreditos()
+    {
+        if (painelCreditos != null)
+        {
+            painelCreditos.SetActive(false);
+        }
+
+        if (painelMenuPrincipal != null)
+        {
+            painelMenuPrincipal.SetActive(true);
+        }
     }
 }

@@ -15,12 +15,19 @@ public class WaveManager : MonoBehaviour
     public int inimigosBase = 2;
     public float tempoEntreWaves = 2f;
 
-    [Header("Área de Spawn")]
-    public Vector2 limiteMinimo = new Vector2(-8f, -4f);
-    public Vector2 limiteMaximo = new Vector2(8f, 4f);
+    [Header("Spawns dos Inimigos")]
+    public Transform[] pontosSpawnInimigos;
+
+    [Header("Spawns das Uvas")]
+    public Transform[] pontosSpawnUvas;
 
     [Header("Boss")]
+    public Transform pontoSpawnBoss;
     public Vector2 posicaoBoss = new Vector2(0f, 3f);
+
+    [Header("Área alternativa de Spawn")]
+    public Vector2 limiteMinimo = new Vector2(-8f, -4f);
+    public Vector2 limiteMaximo = new Vector2(8f, 4f);
 
     private int inimigosVivos = 0;
     private bool jogoEmAndamento = true;
@@ -40,13 +47,12 @@ public class WaveManager : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(IniciarProximaWave());
-
         if (HUDController.Instance != null)
         {
             HUDController.Instance.AtualizarWave(waveAtual, totalWaves);
-            HUDController.Instance.MostrarMensagem("Wave " + waveAtual + " começou!");
         }
+
+        StartCoroutine(IniciarProximaWave());
     }
 
     IEnumerator IniciarProximaWave()
@@ -68,6 +74,12 @@ public class WaveManager : MonoBehaviour
 
         Debug.Log("WAVE " + waveAtual + " COMEÇOU!");
 
+        if (HUDController.Instance != null)
+        {
+            HUDController.Instance.AtualizarWave(waveAtual, totalWaves);
+            HUDController.Instance.MostrarMensagem("Wave " + waveAtual + " começou!");
+        }
+
         int quantidadePadrao = inimigosBase + waveAtual;
         int quantidadeTank = 0;
 
@@ -76,30 +88,41 @@ public class WaveManager : MonoBehaviour
             quantidadeTank = waveAtual - 1;
         }
 
-        inimigosVivos = quantidadePadrao + quantidadeTank;
+        inimigosVivos = 0;
 
         for (int i = 0; i < quantidadePadrao; i++)
         {
-            CriarInimigoPadrao();
+            if (CriarInimigoPadrao())
+            {
+                inimigosVivos++;
+            }
         }
 
         for (int i = 0; i < quantidadeTank; i++)
         {
-            CriarInimigoTank();
+            if (CriarInimigoTank())
+            {
+                inimigosVivos++;
+            }
         }
 
         CriarUvasDaWave();
+
+        if (inimigosVivos <= 0)
+        {
+            StartCoroutine(IniciarProximaWave());
+        }
     }
 
-    void CriarInimigoPadrao()
+    bool CriarInimigoPadrao()
     {
         if (inimigoPadraoPrefab == null)
         {
             Debug.LogWarning("Prefab do inimigo padrão não foi colocado no WaveManager.");
-            return;
+            return false;
         }
 
-        Vector2 posicao = GerarPosicaoNasBordas();
+        Vector2 posicao = GerarPosicaoDeSpawnInimigo();
 
         GameObject novoInimigo = Instantiate(inimigoPadraoPrefab, posicao, Quaternion.identity);
 
@@ -111,17 +134,19 @@ public class WaveManager : MonoBehaviour
             inimigo.vida = 1;
             inimigo.dano = 1;
         }
+
+        return true;
     }
 
-    void CriarInimigoTank()
+    bool CriarInimigoTank()
     {
         if (inimigoTankPrefab == null)
         {
             Debug.LogWarning("Prefab do inimigo tank não foi colocado no WaveManager.");
-            return;
+            return false;
         }
 
-        Vector2 posicao = GerarPosicaoNasBordas();
+        Vector2 posicao = GerarPosicaoDeSpawnInimigo();
 
         GameObject novoInimigo = Instantiate(inimigoTankPrefab, posicao, Quaternion.identity);
 
@@ -133,6 +158,8 @@ public class WaveManager : MonoBehaviour
             inimigo.vida = 3 + waveAtual;
             inimigo.dano = 1;
         }
+
+        return true;
     }
 
     void CriarUvasDaWave()
@@ -147,7 +174,7 @@ public class WaveManager : MonoBehaviour
 
         for (int i = 0; i < quantidadeUvas; i++)
         {
-            Vector2 posicao = GerarPosicaoDentroDaArena();
+            Vector2 posicao = GerarPosicaoDeSpawnUva();
             Instantiate(uvaColetavelPrefab, posicao, Quaternion.identity);
         }
     }
@@ -179,7 +206,14 @@ public class WaveManager : MonoBehaviour
             return;
         }
 
-        Instantiate(bossFinalPrefab, posicaoBoss, Quaternion.identity);
+        Vector2 posicaoFinalBoss = posicaoBoss;
+
+        if (pontoSpawnBoss != null)
+        {
+            posicaoFinalBoss = pontoSpawnBoss.position;
+        }
+
+        Instantiate(bossFinalPrefab, posicaoFinalBoss, Quaternion.identity);
     }
 
     void BossMorreu()
@@ -191,6 +225,36 @@ public class WaveManager : MonoBehaviour
         {
             HUDController.Instance.MostrarVitoria();
         }
+    }
+
+    Vector2 GerarPosicaoDeSpawnInimigo()
+    {
+        if (pontosSpawnInimigos != null && pontosSpawnInimigos.Length > 0)
+        {
+            int indice = Random.Range(0, pontosSpawnInimigos.Length);
+
+            if (pontosSpawnInimigos[indice] != null)
+            {
+                return pontosSpawnInimigos[indice].position;
+            }
+        }
+
+        return GerarPosicaoNasBordas();
+    }
+
+    Vector2 GerarPosicaoDeSpawnUva()
+    {
+        if (pontosSpawnUvas != null && pontosSpawnUvas.Length > 0)
+        {
+            int indice = Random.Range(0, pontosSpawnUvas.Length);
+
+            if (pontosSpawnUvas[indice] != null)
+            {
+                return pontosSpawnUvas[indice].position;
+            }
+        }
+
+        return GerarPosicaoDentroDaArena();
     }
 
     Vector2 GerarPosicaoDentroDaArena()

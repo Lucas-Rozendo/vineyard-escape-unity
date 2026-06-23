@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 545719479925028966}
   - component: {fileID: 1085402549568143134}
   - component: {fileID: 248914179054968603}
+  - component: {fileID: -7235670766676080021}
   m_Layer: 0
   m_Name: BossFinal
   m_TagString: Untagged
@@ -174,7 +175,7 @@ MonoBehaviour:
   vidaMaxima: 30
   vida: 30
   dano: 1
-  distanciaAtaque: 3
+  distanciaAtaque: 2.4
   intervaloAtaque: 1.2
   tempoAnimDano: 0.25
   tempoAnimMorte: 0.8
@@ -200,3 +201,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7235670766676080021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652126568637707520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651dd2b628a427e4498e1976fae93a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrdenarPorY
+  ordemBase: 5000
+  multiplicador: 100
+  ajuste: 0

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5628118166725154113}
   - component: {fileID: 5706519161408671155}
   - component: {fileID: 8041224751319008547}
+  - component: {fileID: 5892605395557193853}
   m_Layer: 0
   m_Name: InimigoTank
   m_TagString: Untagged
@@ -171,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inimigo
   velocidade: 1.2
-  vida: 5
+  vida: 6
   dano: 1
   distanciaAtaque: 1.6
   intervaloAtaque: 1.2
@@ -199,3 +200,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5892605395557193853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703710098942707061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651dd2b628a427e4498e1976fae93a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrdenarPorY
+  ordemBase: 5000
+  multiplicador: 100
+  ajuste: 0
