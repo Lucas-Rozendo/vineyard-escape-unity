@@ -95,6 +95,22 @@ Este projeto utiliza assets visuais e sonoros obtidos de pacotes gratuitos, plat
 * **Licença:** Creative Commons Zero (CC0)
 * **Uso no projeto:** sprite e animações do personagem principal.
 
+### Sprites dos inimigos
+
+* **Asset:** Free Top-Down Goblin Character Sprite
+* **Autor/Distribuidor:** CraftPix
+* **Fonte:** https://craftpix.net/freebies/free-top-down-goblin-character-sprite/
+* **Licença:** Asset gratuito da CraftPix, com uso permitido conforme os termos de licença da plataforma.
+* **Uso no projeto:** sprites e animações dos inimigos goblins, incluindo inimigo padrão, inimigo tank e boss.
+
+### Imagens para construção do mapa
+
+* **Asset:** Free Simple Summer Top-Down Vector Tileset
+* **Autor/Distribuidor:** CraftPix
+* **Fonte:** https://craftpix.net/freebies/free-simple-summer-top-down-vector-tileset/
+* **Licença:** Asset gratuito da CraftPix, com uso permitido conforme os termos de licença da plataforma.
+* **Uso no projeto:** tiles e elementos visuais utilizados para construção do mapa, incluindo grama, caminhos, árvores, casas, cercas, pedras, barris e objetos decorativos.
+
 ### Sprite da flecha
 
 * **Asset:** CC0 Ranged Icons
@@ -141,21 +157,9 @@ Este projeto utiliza assets visuais e sonoros obtidos de pacotes gratuitos, plat
 * **Fonte:** Geradas com auxílio do ChatGPT/OpenAI para uso no projeto acadêmico
 * **Uso no projeto:** imagens do menu principal, tela de pausa, tela de créditos, botões, telas de vitória, derrota, HUD e elementos visuais de interface.
 
-### Sprites dos inimigos
+### Observação geral
 
-* **Asset:** Free Top-Down Goblin Character Sprite
-* **Autor/Distribuidor:** CraftPix
-* **Fonte:** https://craftpix.net/freebies/free-top-down-goblin-character-sprite/
-* **Licença:** Asset gratuito da CraftPix, com uso permitido conforme os termos de licença da plataforma.
-* **Uso no projeto:** sprites e animações dos inimigos goblins, incluindo inimigo padrão, tank e boss.
-
-### Imagens para construção do mapa
-
-* **Asset:** Free Simple Summer Top-Down Vector Tileset
-* **Autor/Distribuidor:** CraftPix
-* **Fonte:** https://craftpix.net/freebies/free-simple-summer-top-down-vector-tileset/
-* **Licença:** Asset gratuito da CraftPix, com uso permitido conforme os termos de licença da plataforma.
-* **Uso no projeto:** tiles e elementos visuais utilizados para construção do mapa, incluindo grama, caminhos, árvores, casas, cercas, pedras e objetos decorativos.
+Os assets utilizados pertencem aos seus respectivos autores e plataformas de origem. O projeto foi desenvolvido exclusivamente para fins acadêmicos e de demonstração.
 
 
 ## Tema
